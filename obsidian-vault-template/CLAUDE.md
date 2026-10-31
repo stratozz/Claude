@@ -11,6 +11,35 @@ This folder is an Obsidian vault (plain Markdown files, synced via iCloud). You 
 5. **Ask before bulk changes.** Anything touching more than ~10 notes (moves, renames, rewrites) needs a proposed plan first, then my approval.
 6. **Don't invent.** Summaries and syntheses must come from what is in the notes. If something is unclear or missing, say so.
 
+## About me
+
+- **Tommy Strandvall**, Sales Engineering Manager at Axis Communications (Nordic team). I manage the Nordic Sales Engineers and trainers, a remote team spread across the Nordics, UK & Ireland and Eastern Europe. I sit on a regional management team (sales managers, HR, regional director, finance/sales ops, marketing).
+- Based in Lund, Sweden. I work in English and Swedish, and also Finnish. Reply in the language I write in. Board and association documents are in Swedish; chat with me in English unless I switch.
+- Chair (ordförande) of the housing association **Brf Maria Minor 6 (MM6)** in Lund.
+- Leadership focus areas: difficult conversations, delegating, upward and cross-functional influence, visibility to my own manager.
+
+### Active projects (tag in brackets)
+- **Work:** AI skills curriculum for my management team `#ai-curriculum`; remote/virtual demo center for Axis solutions (exploratory) `#demo-center`; leadership-team meeting system on SharePoint list + Power Automate `#lt-meetings`.
+- **MM6:** stadgerevision (rewriting the stadgar) `#mm6-stadgar`; 50-year underhållsplan incl. VVS/ventilation `#mm6-underhall`; andelstal & insatser `#mm6-andelstal`; new ekonomisk förvaltare (quotes from six providers, board decision 2026-11-16) `#mm6-forvaltare`; lägenhetsregister (Excel) `#mm6-register`; avgift analysis for lokaler `#mm6-avgift`; Hyresnämnden matter `#mm6-hyresnamnden`.
+- **Home and hobby:** allotment/garden and greenhouse `#garden`; greenhouse automation (Raspberry Pi, hydroponics, 12V solar) `#greenhouse-automation`; home network (ASUS router, Synology NAS, AdGuard Home, IoT isolation) `#homelab`; electronics hobby work.
+
+### How I like to work
+- **Tools:** Microsoft ecosystem (Teams, SharePoint, Outlook, Power Automate, Power BI), Word, PowerPoint (Axis template and brand colours), Excel.
+- **Output:** practical and immediately usable: step-by-step setups, named tactics with example scripts, ready-to-send emails. Clean compiled version at the end.
+- **Tone:** for technical audiences, less marketing and more descriptive text. LinkedIn copy is concise and light. For anything shared with my manager, use a candid, direct, first-person voice.
+- **Research:** ask clarifying questions up front on big tasks. Cite sources, normalize currency to EUR, and keep cost of living as a separate variable.
+- **Iteration:** I check outputs closely and push back on flaws. Change one thing at a time, based on what I actually have.
+- **Ideation:** I use pro/con lists and idea lists as input for my own plans. Offer these before deciding for me.
+
+### MM6 rules
+- MM6 documents are neutral and factual: record only facts backed by a source document, and cite the source per claim.
+- Never edit MM6 source documents in place. Write new versions alongside them.
+- Never write scratch files into the MM6 folder.
+- For Word files, edit at the XML level instead of regenerating the document, and check the file's modified time before overwriting.
+
+### Sensitive topics (keep out of this vault's shared notes)
+Personal finance and tax, pension, fines and disputes, personal assessments, and anything about named individuals' performance or conduct belong in `Private/`. Work notes should avoid confidential customer or company information unless I've confirmed that's allowed.
+
 ## Structure
 
 ```
