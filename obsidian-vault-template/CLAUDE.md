@@ -8,13 +8,14 @@ This folder is an Obsidian vault (plain Markdown files, synced via iCloud). You 
 2. **Never delete notes.** To remove something, move it to `Archive/` instead. Never overwrite a note's existing content wholesale; make targeted edits.
 3. **Stay inside this vault.** Do not read or write files outside this folder.
 4. **No secrets.** If you find passwords, API keys, tokens, ID numbers, or financial account numbers in a note, do not copy them into other notes or summaries. Tell me where they are so I can move them to `Private/` or a password manager.
-5. **Ask before bulk changes.** Anything touching more than ~10 notes (moves, renames, rewrites) needs a proposed plan first, then my approval.
+5. **Propose first, then apply.** You may create new notes freely. For anything else (moving, renaming, retagging, linking into existing notes, editing notes I wrote), list the intended changes and wait for my approval. Bulk changes (more than ~10 notes) always need an approved plan.
 6. **Don't invent.** Summaries and syntheses must come from what is in the notes. If something is unclear or missing, say so.
 
 ## About me
 
 - **Tommy Strandvall**, Sales Engineering Manager at Axis Communications (Nordic team). I manage the Nordic Sales Engineers and trainers, a remote team spread across the Nordics, UK & Ireland and Eastern Europe. I sit on a regional management team (sales managers, HR, regional director, finance/sales ops, marketing).
-- Based in Lund, Sweden. I work in English and Swedish, and also Finnish. Reply in the language I write in. Board and association documents are in Swedish; chat with me in English unless I switch.
+- Based in Lund, Sweden. I work in English and Swedish, and also Finnish. Chat with me in English unless I switch. **Write all notes, summaries and reports in English**, and quote Swedish terms as written (e.g. "stadgar", "andelstal") instead of translating them. Source documents for MM6 are in Swedish.
+- Main uses of the vault, in order of priority: work meetings and follow-ups; MM6 board work; projects and planning; personal, home and hobby.
 - Chair (ordförande) of the housing association **Brf Maria Minor 6 (MM6)** in Lund.
 - Leadership focus areas: difficult conversations, delegating, upward and cross-functional influence, visibility to my own manager.
 
@@ -31,7 +32,7 @@ This folder is an Obsidian vault (plain Markdown files, synced via iCloud). You 
 - **Iteration:** I check outputs closely and push back on flaws. Change one thing at a time, based on what I actually have.
 - **Ideation:** I use pro/con lists and idea lists as input for my own plans. Offer these before deciding for me.
 
-### MM6 rules
+### MM6 rules (apply to everything in `MM6/`)
 - MM6 documents are neutral and factual: record only facts backed by a source document, and cite the source per claim.
 - Never edit MM6 source documents in place. Write new versions alongside them.
 - Never write scratch files into the MM6 folder.
@@ -48,6 +49,9 @@ Projects/    active efforts with an outcome and an end; one folder per project
 Areas/       ongoing responsibilities with no end date (health, finances, career...)
 Resources/   reference material by topic
 Archive/     finished or inactive material
+MM6/         all MM6 board work, one subfolder per workstream (Stadgar, Underhållsplan,
+             Andelstal, Förvaltare, Register, Avgift, Hyresnämnden) plus Sources/ for
+             original documents (never edit these)
 Daily/       daily notes, named YYYY-MM-DD
 Templates/   note templates (do not edit without asking)
 Private/     OFF LIMITS (see hard rule 1)
@@ -77,6 +81,13 @@ status: inbox | active | done
 - Tasks use the checkbox format `- [ ] task 📅 YYYY-MM-DD`.
 - Mark anything you wrote or changed that I haven't reviewed with `#claude-edited`, so I can find it. I'll remove the tag once I've checked it.
 
+## Capture, tasks and people
+
+- **Capture:** Notes arrive typed on Mac/Windows, typed or dictated on iPhone (expect typos and missing punctuation), as Teams or meeting transcripts, and pasted from Claude chats or the web. Everything lands in `Inbox/` first. Fix obvious dictation errors only when processing, and keep the original text.
+- **Transcripts:** Summarize into the meeting template; don't keep the full transcript in the summary note. Leave the raw transcript in place, linked from the summary.
+- **Tasks live in Obsidian only**, as checkboxes with dates. Carry open tasks forward in daily notes and list overdue ones in reviews. Don't create tasks I haven't stated or clearly agreed to.
+- **People:** Use first names and roles only. Record decisions, actions and facts, never judgements about an individual's performance, character or conduct. If a note contains that kind of content, don't summarize it. Tell me it probably belongs in `Private/`.
+
 ## Common tasks
 
 **Process Inbox**
@@ -86,7 +97,7 @@ status: inbox | active | done
 
 **Daily note**: Create `Daily/YYYY-MM-DD.md` from `Templates/` if missing. Fill in open tasks carried over from previous days. Don't write my reflections for me.
 
-**Weekly review**: Summarize notes created or updated in the last 7 days (excluding `Private/`). List open tasks, overdue tasks, projects with no activity in 14+ days, and notes still in `Inbox/`. Suggest 3 priorities for next week.
+**Weekly review** (I do this Monday morning; keep it to short bullets, decisions first, about one screen): Summarize notes created or updated in the last 7 days (excluding `Private/`). List open tasks, overdue tasks, projects with no activity in 14+ days, and notes still in `Inbox/`. Suggest 3 priorities for next week.
 
 **Find connections**: Look for notes that should link to each other but don't, duplicate or overlapping notes, and orphan notes with no links. Report as a list for me to approve. Don't edit yet.
 
